@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.age-container,
+.cat-container,
+.chall3-container,
+.chall4-container,
+.chall5-container {
+  border: 1px solid black;
+  width: 75%;
+  margin: 10px auto;
+}
+.header {
+  /* border:1px solid black;  */
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  /* border:1px solid black;  */
+  width: 300px;
+  padding: 1rem;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.click,
+.reset {
+  cursor: pointer;
+}
+button {
+  width: 100px;
+  height: 30px;
+  font-size: 1rem;
+  padding: 5px;
+  color: white;
+  border-radius: 15px;
+}
+.click,
+.gen,
+.amazon {
+  background: blue;
+}
+.reset,
+.tesla {
+  background: red;
+}
+.google {
+  background: yellow;
+}
+.facebook {
+  background: green;
+}
+
+.age-result {
+  text-align: center;
+}
+
+/* challenge 2: cat generator */
+
+.cat-header,
+.chall3-header,
+.chall4-header,
+.chall5-header {
+  text-align: center;
+  padding: 5px;
+  /* border:1px solid black;  */
+}
+.images,
+.chall3-result,
+.chall4-result {
+  /* border:1px solid black; */
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.images img {
+  width: 300px;
+  margin-top: 10px;
+  height: 150px;
+  /*  "padding does go well with box shadows" 
+    padding:10px 0 10px 0; */
+  box-shadow: 5px 10px 8px #888888;
+}
+
+/*challenge 3*/
+
+.chall3-result img {
+  width: 150px;
+  margin: 10px;
+  height: 150px;
+  /* border: 1px solid black; */
+}
+
+.chall3-result img:hover {
+  box-shadow: 5px 10px 8px #06b9f096;
+}
+
+/* challenge 5 */
+.button-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  background-image: url(https://media.istockphoto.com/photos/green-poker-background-picture-id453187915?k=6&m=453187915&s=612x612&w=0&h=kB43IY-gj4jbxw-_gxsXK11ar2kR8JJjxLX-aXTvjdQ=);
+}
+
+.button-container button {
+  margin: 5px;
+}
+
+.inside-container {
+  background-image: url(https://media.istockphoto.com/photos/green-poker-background-picture-id453187915?k=6&m=453187915&s=612x612&w=0&h=kB43IY-gj4jbxw-_gxsXK11ar2kR8JJjxLX-aXTvjdQ=);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.your-side,
+.dealer-side {
+  /* width: 294.9px; */
+  height: 350px;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.your-side,
+.dealer-side {
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+.your-side img,
+.dealer-side img {
+  width: 150px;
+  margin-top: 10px;
+  height: 150px;
+  box-shadow: 5px 10px 8px #888888;
+}

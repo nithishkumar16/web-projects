@@ -1,0 +1,12 @@
+you<=21:
+1.dealer>you- you lose
+2.dealer>21 - you win
+3.yourscore>dealerscore- you win
+4.you==dealer- you drew
+you>21:
+1.dealer<=21- you lose
+you>21 and dealer >21:
+you drew
+
+87780 13330- abish
+
